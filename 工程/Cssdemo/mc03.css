@@ -1,0 +1,15 @@
+/*#后跟标签元素id，为id选择器用法*/
+#divv{
+    color:rebeccapurple;
+}
+/*通常与派生选择器一起使用*/
+#h11 a{
+    color: red;
+}
+#pp1 strong{
+    color: chartreuse;
+}
+/*类选择器用法与id一致，也通常和派生选择器一起使用*/
+.class1 h3{
+color: darkgreen;
+}

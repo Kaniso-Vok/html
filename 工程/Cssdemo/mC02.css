@@ -1,0 +1,12 @@
+/*选择器用法：*/
+strong{
+    color: darkgoldenrod;
+}
+/*css派生选择器用法:*/
+li strong{
+    color: red;
+}
+p strong{
+    color: blue;
+}
+

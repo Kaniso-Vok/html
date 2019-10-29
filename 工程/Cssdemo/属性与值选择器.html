@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>property selectrtor</title>
+    <style type="text/css">
+        /*属性与值选择器可以不进行外部引入*/
+        [title]{
+            color: brown;
+        }
+        [title=ee]{
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+<!--值不对应的按没有值对应的title样式进行覆盖-->
+<h1 title="qw">
+happly
+</h1>
+<!--值对应的按定义好的样式走-->
+<p title="ee">no one boy</p>
+</body>
+</html>
